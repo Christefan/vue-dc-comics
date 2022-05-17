@@ -1,0 +1,88 @@
+<template>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-nav">
+        <ul>
+          <li><h2>DC COMICS</h2></li>
+          <li><a href="#"> Caracters </a></li>
+          <li><a href="#"> Comics </a></li>
+          <li><a href="#"> Movies </a></li>
+          <li><a href="#"> Tv </a></li>
+          <li><a href="#"> Games </a></li>
+          <li><a href="#"> Videos </a></li>
+          <li><a href="#"> News </a></li>
+
+          <li><h2>SHOP</h2></li>
+          <li><a href="#"> Shop DC </a></li>
+          <li><a href="#"> Shop DC Collectibles </a></li>
+        </ul>
+        <ul>
+          <li><h2>DC</h2></li>
+          <li><a href="#"> Terms of Use </a></li>
+          <li><a href="#"> Privacy Policy </a></li>
+          <li><a href="#"> Ad Choices </a></li>
+          <li><a href="#"> Advertising </a></li>
+          <li><a href="#"> Jobs </a></li>
+          <li><a href="#"> Subscriptions </a></li>
+          <li><a href="#"> Talent Workshops </a></li>
+          <li><a href="#"> CPSC Certificates </a></li>
+          <li><a href="#"> Ratings </a></li>
+          <li><a href="#"> Shop Help </a></li>
+          <li><a href="#"> Contact Us </a></li>
+        </ul>
+        <ul>
+          <li><h2>SITES</h2></li>
+          <li><a href="#"> DC </a></li>
+          <li><a href="#"> MAD Magazine </a></li>
+          <li><a href="#"> DC Kid </a></li>
+          <li><a href="#"> DC Universe </a></li>
+          <li><a href="#"> DC Power Visa </a></li>
+        </ul>
+      </div>
+      <div class="logo-img">
+        <img src="../assets/img/dc-logo-bg.png" alt="" />
+      </div>
+    </div>
+  </footer>
+</template>
+
+<script>
+export default {
+  name: "AppFooter",
+};
+</script>
+
+<style scoped lang="scss">
+footer {
+  height: 400px;
+  background-image: url(../assets/img/footer-bg.jpg);
+  background-size: cover;
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    .logo-img {
+      img {
+        // z-index: -1;
+        width: 600px;
+      }
+    }
+    .footer-nav {
+      display: flex;
+      ul {
+        list-style: none;
+        li {
+          align-items: flex-start;
+          margin-bottom: 5px;
+        }
+        a {
+          text-decoration: none;
+          color: #b9b9b9;
+        }
+      }
+      h2 {
+        margin: 15px 0;
+      }
+    }
+  }
+}
+</style>
