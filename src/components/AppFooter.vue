@@ -73,7 +73,7 @@ footer {
           a {
             text-decoration: none;
             color: rgb(155, 152, 152);
-            font-size: 14-px;
+            font-size: 14px;
           }
         }
       }
